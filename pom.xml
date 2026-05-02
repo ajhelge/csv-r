@@ -26,6 +26,11 @@
             <artifactId>chartfx</artifactId>
             <version>11.3.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>4.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
