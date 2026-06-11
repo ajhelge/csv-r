@@ -29,7 +29,6 @@ public class PrimaryController {
     		FileReader fileReader = new FileReader(selectedFile);
     		CSVReader csvReader = new CSVReader(fileReader);
     		State programState = new State(csvReader.readAll());
-    		programState.display();
     		csvReader.close();
     	}catch(FileNotFoundException e) {
     		//TODO: What if file reader is canceled? Handle exception.
@@ -39,5 +38,5 @@ public class PrimaryController {
     		e.printStackTrace();
     	}
     }
-    //TODO: Import CSV
+    
 }
